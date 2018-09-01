@@ -13,5 +13,7 @@ library(
         '-I/usr/include/openvpn',      # Debian
         '-I/usr/local/include',        # FreeBSD
         '-I/usr/local/include/openvpn' # OpenBSD
-    ]
+    ],
+    install : true,
+    install_dir : 'lib/openvpn'
 )
